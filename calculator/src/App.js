@@ -118,8 +118,8 @@ const App = () => {
 
       
       <Row>
-      <Button label="0"/>
-      <Button label="="/>
+      <Button label="0" onClick={()=> handleAddNumber('0')}/>
+      <Button label="=" onClick={handleEquals}/>
       </Row>
       
     </Content>
